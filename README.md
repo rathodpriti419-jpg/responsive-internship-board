@@ -6,7 +6,7 @@ A beginner-friendly responsive internship listing website built using only HTML,
 
 Add your deployed website URL here:
 
-https://your-live-url-here.com
+https://rathodpriti419-jpg.github.io/responsive-internship-board/
 
 ## GitHub Repository
 
