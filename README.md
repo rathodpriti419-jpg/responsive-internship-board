@@ -12,7 +12,7 @@ https://rathodpriti419-jpg.github.io/responsive-internship-board/
 
 Add your GitHub repository URL here:
 
-https://rathodpriti419-jpg.github.io/responsive-internship-board/
+https://github.com/rathodpriti419-jpg/responsive-internship-board
 
 ---
 
