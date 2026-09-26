@@ -172,7 +172,7 @@ Press Escape while using a form control to clear the filters.
 
 Add your desktop screenshot here:
 
-![Desktop Screenshot](D:\responsive-internship-board\screenshots\desktop .PNG)
+![Desktop Screenshot](D:\responsive-internship-board\screenshots\desktop.PNG)
 
 ### Tablet
 
