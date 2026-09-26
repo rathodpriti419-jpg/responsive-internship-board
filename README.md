@@ -128,11 +128,9 @@ responsive-internship-board/
     script.js
     internships.json
     README.md
-
-    screenshots/
-        desktop.png
-        tablet.png
-        mobile.png
+    desktop.png
+    tablet.png
+    mobile.png
 
 ---
 
@@ -174,19 +172,19 @@ Press Escape while using a form control to clear the filters.
 
 Add your desktop screenshot here:
 
-![Desktop Screenshot](screenshots/desktop.png)
+![Desktop Screenshot](desktop.png)
 
 ### Tablet
 
 Add your tablet screenshot here:
 
-![Tablet Screenshot](screenshots/tablet.png)
+![Tablet Screenshot](tablet.png)
 
 ### Mobile
 
 Add your mobile screenshot here:
 
-![Mobile Screenshot](screenshots/mobile.png)
+![Mobile Screenshot](mobile.png)
 
 ---
 
