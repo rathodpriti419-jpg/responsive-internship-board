@@ -12,7 +12,7 @@ https://your-live-url-here.com
 
 Add your GitHub repository URL here:
 
-https://github.com/your-username/responsive-internship-board
+rathodpriti419-jpg.github.io/responsive-internship-board/
 
 ---
 
