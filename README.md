@@ -172,19 +172,19 @@ Press Escape while using a form control to clear the filters.
 
 Add your desktop screenshot here:
 
-![Desktop Screenshot](desktop.png)
+![Desktop Screenshot](D:\responsive-internship-board\screenshots\desktop .PNG)
 
 ### Tablet
 
 Add your tablet screenshot here:
 
-![Tablet Screenshot](tablet.png)
+![Tablet Screenshot](D:\responsive-internship-board\screenshots\tablet.PNG)
 
 ### Mobile
 
 Add your mobile screenshot here:
 
-![Mobile Screenshot](mobile.png)
+![Mobile Screenshot](D:\responsive-internship-board\screenshots\mobile.PNG)
 
 ---
 
