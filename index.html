@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Responsive Internship Board - Find internships by role, company and domain."
+    >
+
+    <title>Internship Board</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="#" class="logo" aria-label="Internship Board Home">
+                Internship<span>Board</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <a href="#internships">Internships</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+
+                <p class="eyebrow">CAREER OPPORTUNITIES</p>
+
+                <h1>
+                    Find your next
+                    <span>internship.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Explore beginner-friendly internships and find an opportunity
+                    that matches your skills and interests.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Search and Filter -->
+        <section class="search-section" aria-labelledby="search-title">
+
+            <div class="container">
+
+                <h2 id="search-title" class="visually-hidden">
+                    Search and filter internships
+                </h2>
+
+                <form id="filterForm" class="filter-form">
+
+                    <div class="form-group search-group">
+
+                        <label for="searchInput">
+                            Search internships
+                        </label>
+
+                        <div class="input-wrapper">
+
+                            <span class="search-icon" aria-hidden="true">
+                                🔍
+                            </span>
+
+                            <input
+                                type="search"
+                                id="searchInput"
+                                name="search"
+                                placeholder="Search by role, company or skill..."
+                                autocomplete="off"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="domainFilter">
+                            Filter by domain
+                        </label>
+
+                        <select id="domainFilter" name="domain">
+
+                            <option value="all">
+                                All domains
+                            </option>
+
+                            <option value="Web Development">
+                                Web Development
+                            </option>
+
+                            <option value="Mobile Development">
+                                Mobile Development
+                            </option>
+
+                            <option value="Python">
+                                Python
+                            </option>
+
+                            <option value="Data Science">
+                                Data Science
+                            </option>
+
+                            <option value="UI/UX Design">
+                                UI/UX Design
+                            </option>
+
+                            <option value="Cloud Computing">
+                                Cloud Computing
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        id="clearButton"
+                        class="clear-button"
+                    >
+                        Clear
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- Internship Listings -->
+        <section
+            id="internships"
+            class="internships-section"
+            aria-labelledby="internship-title"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="section-label">OPPORTUNITIES</p>
+
+                        <h2 id="internship-title">
+                            Available Internships
+                        </h2>
+                    </div>
+
+                    <p
+                        id="resultCount"
+                        class="result-count"
+                        aria-live="polite"
+                    >
+                        Loading internships...
+                    </p>
+
+                </div>
+
+
+                <!-- Error message -->
+                <div
+                    id="errorMessage"
+                    class="message error-message"
+                    role="alert"
+                    hidden
+                >
+                    <strong>Something went wrong.</strong>
+                    <span>We could not load the internships.</span>
+                </div>
+
+
+                <!-- Empty state -->
+                <div
+                    id="emptyMessage"
+                    class="message empty-message"
+                    role="status"
+                    hidden
+                >
+                    <div class="empty-icon" aria-hidden="true">
+                        🔎
+                    </div>
+
+                    <h3>No internships found</h3>
+
+                    <p>
+                        Try a different search word or choose another domain.
+                    </p>
+
+                    <button
+                        type="button"
+                        id="emptyClearButton"
+                        class="primary-button"
+                    >
+                        Show all internships
+                    </button>
+                </div>
+
+
+                <!-- Cards -->
+                <div
+                    id="internshipList"
+                    class="internship-grid"
+                    aria-live="polite"
+                >
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="about-section">
+
+            <div class="container about-content">
+
+                <p class="section-label">ABOUT</p>
+
+                <h2>
+                    Built for students starting their career.
+                </h2>
+
+                <p>
+                    This internship board makes it simple to discover
+                    opportunities across different technology domains.
+                    Search, filter and explore internships from any device.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Internship Board
+            </p>
+
+            <p>
+                Built with HTML, CSS & JavaScript
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>

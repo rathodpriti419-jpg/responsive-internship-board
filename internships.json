@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer Intern",
+        "company": "BrightTech Solutions",
+        "domain": "Web Development",
+        "location": "Remote",
+        "duration": "3 Months",
+        "type": "Full-time",
+        "description": "Work on responsive websites and learn modern frontend development.",
+        "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 2,
+        "title": "Web Development Intern",
+        "company": "CodeNest Technologies",
+        "domain": "Web Development",
+        "location": "Ahmedabad",
+        "duration": "6 Months",
+        "type": "Hybrid",
+        "description": "Build simple web pages and improve your practical development skills.",
+        "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 3,
+        "title": "Flutter Developer Intern",
+        "company": "AppWorld Labs",
+        "domain": "Mobile Development",
+        "location": "Remote",
+        "duration": "3 Months",
+        "type": "Part-time",
+        "description": "Create mobile application screens using Flutter and Dart.",
+        "skills": ["Flutter", "Dart", "Firebase"]
+    },
+    {
+        "id": 4,
+        "title": "Python Developer Intern",
+        "company": "FutureSoft",
+        "domain": "Python",
+        "location": "Bhavnagar",
+        "duration": "4 Months",
+        "type": "Full-time",
+        "description": "Learn Python programming and work on small real-world projects.",
+        "skills": ["Python", "SQL", "Git"]
+    },
+    {
+        "id": 5,
+        "title": "Data Science Intern",
+        "company": "DataVision AI",
+        "domain": "Data Science",
+        "location": "Remote",
+        "duration": "6 Months",
+        "type": "Full-time",
+        "description": "Explore data analysis and machine learning using real datasets.",
+        "skills": ["Python", "Pandas", "Machine Learning"]
+    },
+    {
+        "id": 6,
+        "title": "UI/UX Design Intern",
+        "company": "CreativePixel Studio",
+        "domain": "UI/UX Design",
+        "location": "Ahmedabad",
+        "duration": "3 Months",
+        "type": "Hybrid",
+        "description": "Design simple and user-friendly interfaces for web and mobile apps.",
+        "skills": ["Figma", "UI Design", "UX Research"]
+    },
+    {
+        "id": 7,
+        "title": "Cloud Computing Intern",
+        "company": "CloudNova Systems",
+        "domain": "Cloud Computing",
+        "location": "Remote",
+        "duration": "6 Months",
+        "type": "Full-time",
+        "description": "Learn cloud services, virtual machines and basic cloud deployment.",
+        "skills": ["AWS", "Cloud", "Linux"]
+    },
+    {
+        "id": 8,
+        "title": "JavaScript Developer Intern",
+        "company": "WebWorks India",
+        "domain": "Web Development",
+        "location": "Surat",
+        "duration": "3 Months",
+        "type": "Full-time",
+        "description": "Create interactive websites using JavaScript and browser APIs.",
+        "skills": ["JavaScript", "HTML", "CSS"]
+    }
+]
